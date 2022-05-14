@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+html, body {
+  margin:0px;
+  height:100%;
+}
+
+.telabase {
+    background-color: #FB6B6B;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telabase img {
+    margin-left: 60px;
+    width: 136px;
+    height: 161px;
+}
+
+h1 {
+    margin-top: 30px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #D70900;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Recursive";
+    color: #D70900;
+    font-size: 18px;
+    --casl: "CASL" 1;
+    --wght: "wght" 400;
+    font-variation-settings: var(--casl), var(--wght);
+    height: 54px;
+    width: 246px;
+    background-color: white;
+}
+
+h2 {
+    margin-top: 13px;
+    height: 59px;
+    width: 257px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Righteous";
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+}
+
+.bottom {
+    position: absolute;
+    background-color: #FB6B6B;
+    height: 1px;
+    bottom: 0px;
+}
+.baserecall {
+    background-color: #FB6B6B;
+    width: 100%;
+    height: 100vh;
+}
+.logorecall {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.pergunta{
+    width: 300px;
+    height: 65px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
