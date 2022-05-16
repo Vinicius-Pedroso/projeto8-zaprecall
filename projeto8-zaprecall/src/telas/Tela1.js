@@ -1,4 +1,4 @@
-import Tela2 from "./Tela2";
+
 
 /*function calltela2() {
     return (
