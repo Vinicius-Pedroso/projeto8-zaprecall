@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-html, body {
-  margin:0px;
-  height:100%;
+html,
+body {
+    margin: 0px;
+    height: 100%;
 }
 
 .telabase {
@@ -16,8 +17,8 @@ html, body {
 
 .telabase img {
     margin-left: 60px;
-    width: 136px;
-    height: 161px;
+    width: 135px;
+    height: 160px;
 }
 
 h1 {
@@ -32,8 +33,8 @@ h1 {
     font-family: "Recursive";
     color: #D70900;
     font-size: 18px;
-    --casl: "CASL" 1;
-    --wght: "wght" 400;
+    --casl: "CASL"1;
+    --wght: "wght"400;
     font-variation-settings: var(--casl), var(--wght);
     height: 54px;
     width: 246px;
@@ -59,21 +60,29 @@ h2 {
     height: 1px;
     bottom: 0px;
 }
+
 .baserecall {
     background-color: #FB6B6B;
     width: 100%;
     height: 100vh;
 }
+
 .logorecall {
     padding-top: 35px;
     display: flex;
     justify-content: center;
 }
+
 .perguntas {
-    display: inline-block;
+    display: block;
+}
+
+.center {
+    display: flex;
     justify-content: center;
 }
-.pergunta{
+
+.pergunta {
     margin-top: 40px;
     width: 300px;
     height: 65px;
@@ -86,33 +95,116 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-h3{
+
+h3 {
     font-family: "Recursive";
     color: #333333;
     font-size: 16px;
-    --casl: "CASL" 1;
-    --wght: "wght" 700;
+    --casl: "CASL"1;
+    --wght: "wght"700;
     font-variation-settings: var(--casl), var(--wght);
 }
+
 .pergunta ion-icon {
     height: 28px;
     width: 28px;
 }
+
 .conclusao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     bottom: 0px;
     width: 100%;
     height: 70px;
     background-color: white;
+    --casl: "CASL"1;
+    --wght: "wght"400;
+    font-variation-settings: var(--casl), var(--wght);
 }
-h4{
+
+.conclusao div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
     font-family: "Recursive";
     color: #333333;
     font-size: 18px;
-    --casl: "CASL" 1;
-    --wght: "wght" 400;
-    font-variation-settings: var(--casl), var(--wght);
+}
+
+.perguntaver {
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #FFFFD4;
+    border: none;
+    border-radius: 5px;
+    height: 140px;
+    width: 330px;
+}
+
+.boxpergunta {
+    width: 100%;
+    height: 100px;
+}
+
+.boxicon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boxicon img {
+    height: 20px;
+    width: 20px;
+}
+
+.opcaorecall {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao {
+    border-radius: 5px;
+    width: 85px;
+    height: 38px;
+    max-width: 85px;
+    max-height: 34px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botao h4 {
+    font-size: 12px;
+    color: white;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.amarelo {
+    padding-left: 17px;
+    background-color: #FF922E;
+}
+
+.verde {
+    background-color: #2FBE34;
+}
+
+.erro {
+    text-decoration: line-through;
+    color: #ff3030;
+}
+
+.quase {
+    text-decoration: line-through;
+    color: #FF922E;
+}
+
+.lembrou {
+    text-decoration: line-through;
+    color: #2FBE34;
 }
