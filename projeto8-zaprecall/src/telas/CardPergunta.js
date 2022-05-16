@@ -1,8 +1,8 @@
-export default function CardPergunta (){
+export default function CardPergunta ({pergunta, setpergunta, perguntacard}){
     return (
         <div class="perguntaver">
             <div class="boxpergunta">
-              <h4>Pergunta X</h4>
+              <h4>{perguntacard}</h4>
             </div>
             <div class="boxicon">
               <img src="/image/setinha.png"/>

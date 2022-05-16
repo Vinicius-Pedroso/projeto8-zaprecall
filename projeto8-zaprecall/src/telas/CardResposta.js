@@ -1,8 +1,8 @@
-export default function CardResposta(){
+export default function CardResposta(props){
     return (
         <div class="perguntaver">
             <div class="boxpergunta">
-                <h4>O que é X?</h4>
+                <h4>{props.respostadocard}</h4>
             </div>
             <span class="opcaorecall">
                 <div class="botao vermelho">
