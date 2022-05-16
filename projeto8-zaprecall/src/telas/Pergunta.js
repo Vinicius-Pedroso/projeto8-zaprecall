@@ -6,14 +6,3 @@ export default function Pergunta ({setpergunta, idpergunta}){
         </div>
     );
 }
-
-/*
-export default function Pergunta (props){
-    return (
-        <div class="pergunta">
-            <h3>props.pergunta</h3>
-            <ion-icon name="play-outline" ></ion-icon>
-        </div>
-    );
-}
-*/
